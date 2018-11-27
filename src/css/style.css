@@ -1,0 +1,34 @@
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8; }
+
+#home-section {
+  background-image: url("../lib/branches-cold.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 600px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .card-form {
+    opacity: 0.9; }
+  #home-section .fa {
+    color: #008ed6;
+    background-color: snow;
+    border-radius: 20%;
+    font-size: 150%; }
+
+#share-section {
+  background-image: url("../lib/social-media.jpeg");
+  min-height: 400px;
+  background-size: cover;
+  background-attachment: fixed; }

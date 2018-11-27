@@ -1,0 +1,49 @@
+$bg-color : #333;
+$font-color : #fff;
+$primary-color : #008ed6;
+$overlay-color : rgba(0,0,0,0.3);
+
+body {
+    background: $bg-color;
+    color : $font-color;
+}
+
+.navbar {
+    border-bottom : $primary-color 3px solid;
+    opacity: 0.8;
+}
+
+#home-section {
+    background-image: url('../lib/branches-cold.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 600px;
+    
+    .dark-overlay {
+        background-color: $overlay-color;
+        top :0;
+        left :0;
+        width :100%;
+        min-height: 600px;
+    }
+    .home-inner {
+        padding-top: 150px;
+    }
+    .card-form {
+        opacity: 0.9;
+    }
+    .fa {
+        color: $primary-color;
+        background-color: snow;
+        border-radius: 20%;
+        font-size: 150%;
+    }
+}
+
+#share-section {
+    background-image: url("../lib/social-media.jpeg");
+    min-height: 400px;
+    background-size: cover;
+     background-attachment: fixed;
+    
+}
